@@ -1,0 +1,53 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Software: arcSOS-t-Solver
+
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Swapnil
+    family-names: Tripathi
+    email: swap_trip@outlook.com
+    affiliation: 'Kadir Has University, Istanbul, Turkey'
+    orcid: 'https://orcid.org/0000-0002-5726-1813'
+  - given-names: Alkım
+    orcid: 'https://orcid.org/0000-0002-8131-388X'
+    family-names: Gökçen
+    affiliation: 'Izmir Katip Celebi University, Izmir, Turkey'
+  - given-names: Mahmut
+    family-names: Kudeyt
+    orcid: 'https://orcid.org/0000-0002-0457-9027'
+  - given-names: Ozkan
+    family-names: Karabacak
+    affiliation: 'Kadir Has University, Istanbul, Turkey'
+    orcid: 'https://orcid.org/0000-0002-8350-193X'
+  - given-names: Savaş
+    family-names: Şahin
+    orcid: 'https://orcid.org/0000-0003-2065-6907'
+identifiers:
+  - type: doi
+    value: 10.20944/preprints202409.1361.v1
+    description: >-
+      Paper on finding Lyapunov Certificates for systems on
+      torus.
+repository-code: >-
+  https://github.com/Swap-Tripathi/t-SOS-solver
+abstract: >-
+  The repository contains programs to obtain the expression
+  of Lyapunov density as per Theorem 4 in an upcoming conference paper
+  "Semidefinite Programming Certificates for Synchronization of Kuramoto Oscillators on Arcs" which is part of the preprint.
+  (https://www.preprints.org/manuscript/202409.1361/v1).
+keywords:
+  - Trigonometric polynomials
+  - LaSalle and Lyapunov theorem
+  - Coupled oscillators
+  - local phase synchronization
+license: CC-BY-4.0
+commit: Original_codes
+version: '1.0'
+date-released: '2025-05-01'
