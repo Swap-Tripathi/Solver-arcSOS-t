@@ -36,7 +36,7 @@ identifiers:
       Paper on finding Lyapunov Certificates for systems on
       torus.
 repository-code: >-
-  https://github.com/Swap-Tripathi/t-SOS-solver
+  https://github.com/Swap-Tripathi/Solver-arcSOS-t
 abstract: >-
   The repository contains programs to obtain the expression
   of Lyapunov density as per Theorem 4 in an upcoming conference paper
