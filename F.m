@@ -1,10 +1,17 @@
 function y = F(l,i)
 
    
-global alphaVec;                        % global variable storing alpha_c for c=1,...,d 
-global betaVec;                         % global variable storing beta_c for c=1,..,d
+global alphaVec;                        % global variable storing alpha_c for c=1,...,L 
+global betaVec;                         % global variable storing beta_c for c=1,..,L
 
 
+    %for one oscillator, use the following
+    %FF   = [-1      1       -1j*alphaVec(1) * exp(1j * betaVec(1))/2        1j*alphaVec(1)*exp(-1j*betaVec(1))/2;
+    %         1      0       1j*alphaVec(1)*cos(betaVec(1))                  1j*alphaVec(1)*exp(1j*betaVec(1))/2;
+    %         0      1       1j*alphaVec(1)*exp(1j*betaVec(1))/2             1j*alphaVec(1)*cos(betaVec(1))];
+
+    
+    %for three oscillators, use the following
     FF   = [-1      1       -1j*alphaVec(1) * exp(1j * betaVec(1))/2        1j*alphaVec(1)*exp(-1j*betaVec(1))/2;
             -2      2       -1j*alphaVec(2) * exp(1j * betaVec(2))/2        1j*alphaVec(2)*exp(-1j*betaVec(2))/2;
             -3      3       -1j*alphaVec(3) * exp(1j * betaVec(3))/2        1j*alphaVec(3)*exp(-1j*betaVec(3))/2;
